@@ -70,3 +70,48 @@ Ask AI JSON Formatter
 Call API Node
         ↓
 Airtable Pricing Records Table
+
+
+Example Output
+Example records created from the Notion pricing page:
+Competitor Name	Plan Name	Price	Billing Period
+Notion	Free	$0	per member / month
+Notion	Plus	$10	per member / month
+Notion	Business	$20	per member / month
+Notion	Enterprise	Custom pricing	per member / month
+Product Management Value
+This project helps Product Managers:
+Track competitor pricing more efficiently
+Compare plan packaging across competitors
+Identify feature gaps
+Support pricing and roadmap decisions
+Reduce manual competitive research effort
+Current Status
+Completed:
+Built the Gumloop workflow
+Scraped a live competitor pricing page
+Extracted pricing and feature data using AI
+Tested API payloads with Webhook.site
+Connected the workflow to Airtable
+Successfully created Airtable records from extracted competitor data
+
+Security Notes
+This repository does not include private API keys, Airtable tokens, or private Webhook.site URLs.
+Any screenshots used in this project should hide sensitive information such as tokens, API URLs, and account details.
+
+Future Improvements
+Add support for multiple competitor URLs
+Schedule the workflow to run weekly
+Detect pricing or feature changes over time
+Send alerts for major competitor updates
+Build a comparison dashboard in Airtable
+Project Summary
+The AI Competitor Intelligence Pipeline shows how a Product Manager can use AI workflow automation, web scraping, and API integrations to turn competitor pricing pages into structured product intelligence.
+
+This version is better for README because it is simple, professional, and does not overload the reader. Then we can put deeper details into `PRD.md`, `Architecture.md`, and `Testing_Notes.md`.
+
+
+
+
+
+
